@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="An introduction to Google Workspace and the tools that help teams create, communicate, and collaborate.">
+	<title>Home | Winsley's Website</title>
+	<link rel="icon" href="src/icon/pfp.jpg" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<a class="skip-link" href="#main-content">Skip to content</a>
+	<header class="site-header">
+		<a class="brand" href="home.html" aria-label="Google Workspace home">
+			<img class="brand-mark" src="src/icon/pfp.jpg" alt="pfp" width="40" height="40" style="width: 40px; height: 40px; object-fit: cover;">
+			<span>Winsley's <strong>Website</strong></span>
+		</a>
+		<nav class="site-nav" aria-label="Main navigation">
+			<a class="active" href="home.html">Overview</a>
+			<a href="tech.html">Tech</a>
+			<a href="workplace.html">Workplace</a>
+			<a href="learn.html">Learn</a>
+			<a href="lifelong.html">Lifelong</a>
+			<a href="career.html">Careers</a>
+		</nav>
+		<a class="header-action" href="#overview">Explore <span aria-hidden="true">&#8599;</span></a>
+	</header>
+
+	<main id="main-content">
+		<section class="hero" aria-labelledby="hero-title">
+			<div class="hero-copy">
+				<p class="eyebrow"><span class="eyebrow-dot"></span> Google workspace</p>
+				<h1 id="hero-title">Make room for <em>better</em> work.</h1>
+				<p class="hero-intro">Google Workspace (formerly G Suite) brings your favorite productivity tools together, so ideas move from first thought to finished work without getting lost.</p>
+				<div class="hero-actions">
+					<a class="button button-primary" href="#overview">Discover Workspace <span aria-hidden="true">&#8594;</span></a>
+					<a class="text-link" href="#apps">View the apps <span aria-hidden="true">&#8594;</span></a>
+				</div>
+				<div class="hero-note"><span class="note-line"></span><span>For teams, classrooms, and curious minds</span></div>
+			</div>
+			<div class="hero-visual">
+				<div class="hero-slideshow">
+					<input type="radio" name="hero-slide" id="hero-slide-1" class="slide-radio" checked>
+					<input type="radio" name="hero-slide" id="hero-slide-2" class="slide-radio">
+					<input type="radio" name="hero-slide" id="hero-slide-3" class="slide-radio">
+
+					<div class="slide-track">
+						<div class="slide"><img src="./src/img/google-workspace.jpg" alt="Google Workspace" fetchpriority="high"></div>
+						<div class="slide"><img src="./src/img/google-workspace-2.png" alt="Google Workspace 2"></div>
+						<div class="slide"><img src="./src/img/cat-working.png" alt="Cat working"></div>
+					</div>
+
+					<label for="hero-slide-3" class="slide-arrow slide-prev arrow-set-1" aria-label="Previous image">&#8592;</label>
+					<label for="hero-slide-2" class="slide-arrow slide-next arrow-set-1" aria-label="Next image">&#8594;</label>
+
+					<label for="hero-slide-1" class="slide-arrow slide-prev arrow-set-2" aria-label="Previous image">&#8592;</label>
+					<label for="hero-slide-3" class="slide-arrow slide-next arrow-set-2" aria-label="Next image">&#8594;</label>
+
+					<label for="hero-slide-2" class="slide-arrow slide-prev arrow-set-3" aria-label="Previous image">&#8592;</label>
+					<label for="hero-slide-1" class="slide-arrow slide-next arrow-set-3" aria-label="Next image">&#8594;</label>
+
+					<div class="slide-dots" aria-hidden="true">
+						<label for="hero-slide-1" class="slide-dot"></label>
+						<label for="hero-slide-2" class="slide-dot"></label>
+						<label for="hero-slide-3" class="slide-dot"></label>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="overview" id="overview" aria-labelledby="overview-title">
+			<div class="section-heading">
+				<p class="eyebrow">Introduction</p>
+				<h2 id="overview-title">What is Google Workspace?</h2>
+			</div>
+			<div class="overview-content">
+				<p>Google Workspace is a cloud-based collection of communication and collaboration tools. It helps people create, share, and organize work from almost anywhere, on any device.</p>
+				<div class="stat-row"><strong>3B+</strong><span>people use Google Workspace<br>to get things done</span></div>
+			</div>
+		</section>
+
+		<section class="apps" id="apps" aria-labelledby="apps-title">
+			<div class="apps-heading">
+				<p class="eyebrow">Your everyday toolkit</p>
+				<h2 id="apps-title">Everything you need,<br><em>close at hand.</em></h2>
+			</div>
+			<div class="app-grid">
+                <a class="app-card gemini-card" href="https://gemini.google.com/" target="_blank" rel="noopener" aria-label="Open Google Gemini"><span class="app-icon"><img src="src/icon/google-gemini.svg" alt="Google Gemini icon" height="40px"></span><h3>Gemini</h3><p>Get help with writing, coding, and more.</p><span class="card-arrow" aria-hidden="true">&#8599;</span></a>
+				<a class="app-card docs-card" href="https://docs.google.com/" target="_blank" rel="noopener" aria-label="Open Google Docs"><span class="app-icon"><img src="src/icon/google-docs.svg" alt="Google Docs icon" height="40px"></span><h3>Docs</h3><p>Write and refine ideas together, in real time.</p><span class="card-arrow" aria-hidden="true">&#8599;</span></a>
+                <a class="app-card map-card" href="https://maps.google.com/" target="_blank" rel="noopener" aria-label="Open Google Maps"><span class="app-icon"><img src="src/icon/google-maps.svg" alt="Google Maps icon" height="40px"></span><h3>Maps</h3><p>Find places and get directions, all in one place.</p><span class="card-arrow" aria-hidden="true">&#8599;</span></a>
+				<a class="app-card meet-card" href="https://meet.google.com/" target="_blank" rel="noopener" aria-label="Open Google Meet"><span class="app-icon"><img src="src/icon/google-meet.svg" alt="Google Meet icon" height="40px"></span><h3>Meet</h3><p>Make conversations feel closer, wherever you are.</p><span class="card-arrow" aria-hidden="true">&#8599;</span></a>
+				<a class="app-card drive-card" href="https://drive.google.com/" target="_blank" rel="noopener" aria-label="Open Google Drive"><span class="app-icon"><img src="src/icon/google-drive.svg" alt="Google Drive icon" height="40px"></span><h3>Drive</h3><p>Keep every file easy to find and ready to share.</p><span class="card-arrow" aria-hidden="true">&#8599;</span></a>
+                <a class="app-card calendar-card" href="https://calendar.google.com/" target="_blank" rel="noopener" aria-label="Open Google Calendar"><span class="app-icon"><img src="src/icon/google-calendar.svg" alt="Google Calendar icon" height="40px"></span><h3>Calendar</h3><p>Organize your schedule and stay on top of events.</p><span class="card-arrow" aria-hidden="true">&#8599;</span></a>
+			</div>
+		</section>
+
+		<section class="testimonials" id="testimonials" aria-labelledby="testimonials-title">
+			<div class="section-heading">
+				<p class="eyebrow">What people say</p>
+				<h2 id="testimonials-title" style="margin-bottom: 35px;">Loved by <em>teams like yours.</em></h2>
+			</div>
+			<div class="testimonial-grid">
+				<figure class="testimonial-card">
+					<blockquote>"Switching our study group to Workspace cut our email back-and-forth in half. Docs and Meet just work together."</blockquote>
+					<figcaption><strong>Yi An</strong><span>Marketing Student</span></figcaption>
+				</figure>
+				<figure class="testimonial-card">
+					<blockquote>"Calendar and Drive keep our whole club organized. Everyone always knows what's next."</blockquote>
+					<figcaption><strong>Tze Hao</strong><span>Club coordinator</span></figcaption>
+				</figure>
+				<figure class="testimonial-card">
+					<blockquote>"Gemini helps me draft assignments faster, and Meet makes group projects painless without physical meetings."</blockquote>
+					<figcaption><strong>Ivan</strong><span>Computer Science Student</span></figcaption>
+				</figure>
+			</div>
+		</section>
+
+		<section class="recent-news" id="news" aria-labelledby="news-title">
+			<div class="section-heading">
+				<p class="eyebrow">Google news</p>
+				<h2 id="news-title">What's happening now? <em>Let's find out!!</em></h2>
+			</div>
+			<div class="news-grid">
+				<a class="news-card" href="https://news.google.com/topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JXVnVMVWRDR2dKTldTZ0FQAQ?hl=en-MY&gl=MY&ceid=MY%3Aen" target="_blank" rel="noopener" aria-label="Open Google News top stories">
+					<span class="news-label">Top stories</span>
+					<h3>See what's happening around the world.</h3>
+					<span class="news-arrow" aria-hidden="true">&#8599;</span>
+				</a>
+				<a class="news-card" href="https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSkwyMHZNRGx3Yld0MkVnVmxiaTFIUWlnQVAB?hl=en-MY&gl=MY&ceid=MY%3Aen" target="_blank" rel="noopener" aria-label="Open Google News technology news">
+					<span class="news-label">Local News</span>
+					<h3>Catch up on the latest local news in Malaysia.</h3>
+					<span class="news-arrow" aria-hidden="true">&#8599;</span>
+				</a>
+				<a class="news-card" href="https://news.google.com/search?q=Google%20Workspace" target="_blank" rel="noopener" aria-label="Search Google News for Google Workspace">
+					<span class="news-label">Google Workspace</span>
+					<h3>Explore news about the tools you use.</h3>
+					<span class="news-arrow" aria-hidden="true">&#8599;</span>
+				</a>
+			</div>
+		</section>
+
+		<section class="faq-section" id="faq" aria-labelledby="faq-title">
+			<div class="section-heading">
+				<p class="eyebrow">Good to know</p>
+				<h2 id="faq-title" style="margin-bottom: 35px;">Frequently asked <em>questions.</em></h2>
+			</div>
+			<div class="faq-list">
+				<details class="faq-item">
+					<summary>Is Google Workspace free to use?</summary>
+					<p>Gmail, Docs, Drive, Meet, and Calendar are free for personal use with a Google account. Schools and organizations can upgrade to paid plans for extra storage, admin controls, and security features.</p>
+				</details>
+				<details class="faq-item">
+					<summary>How much does Google Workspace cost?</summary>
+					<p>Google Workspace business plans start at $7 per user per month with a one-year commitment. Prices and plan features may vary by region. <a href="https://workspace.google.com/pricing.html" target="_blank" rel="noopener">(Click to view plans and purchase Google Workspace)</a>.</p>
+				</details>
+				<details class="faq-item">
+					<summary>Can I use Workspace apps offline?</summary>
+					<p>Yes. Docs, Sheets, and Slides support offline editing once enabled in your browser or the mobile app, and changes sync automatically when you're back online.</p>
+				</details>
+				<details class="faq-item">
+					<summary>How many people can join a Google Meet call?</summary>
+					<p>Free accounts support up to 100 participants per call, with longer call limits and larger meeting sizes available on paid plans.</p>
+				</details>
+				<details class="faq-item">
+					<summary>Is my data private and secure?</summary>
+					<p>Google Workspace encrypts data in transit and at rest, and gives you full control over sharing permissions for every file and folder.</p>
+				</details>
+			</div>
+		</section>
+
+		<section class="contact-section" id="contact" aria-labelledby="contact-title">
+			<div class="contact-wrap">
+				<div class="contact-copy">
+					<p class="eyebrow">Let's connect</p>
+					<h2 id="contact-title">Have an idea?<br><em>Let's talk.</em></h2>
+					<p>Whether you have a question, a project in mind, or simply want to say hello, send a message and I'll get back to you soon.</p>
+					<p> You may also reach out to me directly at Discord: @flaschon</p>
+					<div class="contact-details">
+						<div><span aria-hidden="true">✦</span> Friendly replies, always</div>
+						<div><span aria-hidden="true">✦</span> Your message stays private</div>
+						<div><span aria-hidden="true">✦</span> I won't bite you :)</div>
+
+					</div>
+				</div>
+				<form class="contact-form" action="mailto:winsley@example.com" method="post" enctype="text/plain">
+					<div class="form-row">
+						<div class="form-field"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Lirili Larila" required></div>
+						<div class="form-field"><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="bro67@mmu.edu.my" required></div>
+					</div>
+					<div class="form-field"><label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="What would you like to discuss?" required></div>
+					<div class="form-field"><label for="message">Message</label><textarea id="message" name="message" placeholder="Write your message here..." required></textarea></div>
+					<button class="contact-submit" type="submit">Send message <span aria-hidden="true">→</span></button>
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<span>Winsley's Website</span>
+		<span>Tools for a more connected day.</span>
+		<span>Made by Winsley @ Group 2</span>
+		<a href="#hero-title">Back to top &#8593;</a>
+	</footer>
+</body>
+</html>
+
+
+</style>
