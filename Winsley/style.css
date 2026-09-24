@@ -1024,36 +1024,8 @@ h2 {
 }
 
 /* ==============================
-  TECH PAGE (tech.html): statistics
   LEARN PAGE (learn.html): data table
   ============================== */
-.stat-band {
-  background: var(--ink);
-  color: white;
-  display: grid;
-  gap: 25px;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 72px 0;
-  padding: 30px;
-}
-
-.stat-band strong,
-.stat-band span {
-  display: block;
-}
-
-.stat-band strong {
-  color: var(--lime);
-  font-family: var(--display);
-  font-size: 31px;
-  margin-bottom: 5px;
-}
-
-.stat-band span {
-  color: #c2ccc5;
-  font-size: 12px;
-  line-height: 1.5;
-}
 
 .data-table {
   border-collapse: collapse;
